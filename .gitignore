@@ -1,0 +1,27 @@
+# Large genomic data files
+*.fna.gz
+*.faa.gz
+*.gff
+*.gtf.gz
+*.fasta.gz
+
+# Large sequence files
+src/downloads/*/Sequences/*.gz
+src/downloads/*/Annotations/*.faa
+src/downloads/*/Annotations/*.gff
+src/downloads/*/Annotations/*.gtf.gz
+
+# BLAST database files
+src/blast_dbs/**/*.n*
+src/blast_dbs/**/*.fna
+
+# JBrowse data files (can be large)
+src/jbrowse/JBrowse-*
+src/jbrowse/data/*/
+
+# Docker postgres data
+postgres-data/
+
+# Temporary files
+*.tmp
+*.temp
