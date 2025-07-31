@@ -1,23 +1,23 @@
 {
-  "Annona cherimola":
+  "_Annona cherimola":
     {"card_title":"Annona cherimola",
       "card_subtitle":"Cherimoya",
       "image":"cherimoya.png",
-      "public":"1",
+      "public":"0",
       "link":"cherimoya.php"
     },
-    "Mangifera indica":
+    "_Mangifera indica":
       {"card_title":"Mangifera indica",
         "card_subtitle":"Mango",
         "image":"mango.png",
-        "public":"1",
+        "public":"0",
         "link":"mango.php"
       },
-    "Olea europaea":
+    "_Olea europaea":
       {"card_title":"Olea europaea",
         "card_subtitle":"Olive",
         "image":"olive.png",
-      "public":"1",
+      "public":"0",
       "link":"olive.php"
       },
     "Phytophthora infestans":

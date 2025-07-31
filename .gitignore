@@ -18,6 +18,7 @@ src/blast_dbs/**/*.fna
 # JBrowse data files (can be large)
 src/jbrowse/JBrowse-*
 src/jbrowse/data/*/
+src/blast_dbs/protein/*
 
 # Docker postgres data
 postgres-data/
