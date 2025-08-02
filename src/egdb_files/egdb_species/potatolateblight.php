@@ -4,7 +4,7 @@
 <h3 style="color:#7f8c8d;margin-bottom:25px;font-size:1.2rem;"><i><?php echo $sps_title ?></i></h3>
 
 <div style="margin-bottom: 30px;">
-<a href="/jbrowse/" class="btn btn-info sps-btn" role="button" style="margin-right:10px;margin-bottom:10px;padding:10px 20px;font-size:14px;">Genome Browser</a>
+<a href="/jbrowse/?data=data/potato_lateblight" class="btn btn-info sps-btn" role="button" style="margin-right:10px;margin-bottom:10px;padding:10px 20px;font-size:14px;">Genome Browser</a>
 <a href="/easy_gdb/tools/blast/blast_input.php" class="btn btn-info sps-btn" role="button" style="margin-right:10px;margin-bottom:10px;padding:10px 20px;font-size:14px;">BLAST</a>
 <a href="/easy_gdb/tools/fasta_download.php?species=phytophthora" class="btn btn-info sps-btn" role="button" style="margin-right:10px;margin-bottom:10px;padding:10px 20px;font-size:14px;">Sequence Extraction</a>
 <a href="/easy_gdb/tools/annot_input_list.php?species=phytophthora" class="btn btn-info sps-btn" role="button" style="margin-right:10px;margin-bottom:10px;padding:10px 20px;font-size:14px;">Annotation Extraction</a>
