@@ -58,3 +58,9 @@ id_rsa*
 # Local environment configs
 .env.local
 .env.production
+
+# Temporary files and bash variable artifacts
+$*
+tmp*
+temp*
+*.tmp
