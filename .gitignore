@@ -1,28 +1,46 @@
-# Large genomic data files
-*.fna.gz
-*.faa.gz
-*.gff
-*.gtf.gz
-*.fasta.gz
+# Large data files
+src/blast_dbs/
+src/downloads/
+src/jbrowse/sample_data/
+src/annotations/*/
+
+# System files
+.DS_Store
+**/.DS_Store
+
+# Environment files
+.env
 
 # Large sequence files
-src/downloads/*/Sequences/*.gz
-src/downloads/*/Annotations/*.faa
-src/downloads/*/Annotations/*.gff
-src/downloads/*/Annotations/*.gtf.gz
+*.fasta
+*.fa
+*.fastq
+*.fq
+*.gz
 
 # BLAST database files
-src/blast_dbs/**/*.n*
-src/blast_dbs/**/*.fna
+*.nhr
+*.nin
+*.nog
+*.nsd
+*.nsi
+*.nsq
+*.phr
+*.pin
+*.pog
+*.psd
+*.psi
+*.psq
 
-# JBrowse data files (can be large)
-src/jbrowse/JBrowse-*
-src/jbrowse/data/*/
-src/blast_dbs/protein/*
+# Personal information - do not commit
+**/sathya*
+**/*sathyajali*
+**/*gmail.com*
 
-# Docker postgres data
-postgres-data/
-
-# Temporary files
-*.tmp
-*.temp
+# Local configuration files
+azure-vm-setup.sh
+deploy-phytophoradb.sh
+deploy-easygdb.sh
+deploy-vm-fast.sh
+customize_site.sh
+test_*.sh
