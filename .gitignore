@@ -10,6 +10,8 @@ src/annotations/*/
 
 # Environment files
 .env
+.env.template
+.env.*
 
 # Large sequence files
 *.fasta
@@ -37,10 +39,22 @@ src/annotations/*/
 **/*sathyajali*
 **/*gmail.com*
 
-# Local configuration files
+# Local deployment and configuration files (keep local, don't commit)
 azure-vm-setup.sh
-deploy-phytophoradb.sh
-deploy-easygdb.sh
-deploy-vm-fast.sh
+deploy-*.sh
+phytophora.sh
 customize_site.sh
 test_*.sh
+*.local
+*.private
+
+# SSH keys and credentials
+*.pem
+*.key
+id_rsa*
+*.pub
+.ssh/
+
+# Local environment configs
+.env.local
+.env.production
