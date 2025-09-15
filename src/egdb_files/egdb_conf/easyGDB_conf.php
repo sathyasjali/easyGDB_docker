@@ -111,9 +111,11 @@ $show_qr = 1;
 
 //Gene examples
 $gene_sample = "";
-$input_gene_list="gene1.1
-gene2.1
-gene3.1";
+$input_gene_list="PITG_22089
+PITG_22013
+PITG_23216
+PITG_00002
+PITG_00003";
 
 // Tools
 $max_lookup_input = 10000;

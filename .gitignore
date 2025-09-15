@@ -4,6 +4,13 @@ src/downloads/
 src/jbrowse/sample_data/
 src/annotations/*/
 
+# Database data (contains sensitive information)
+postgres-data/
+
+# BAM files (large binary files)  
+*.bam
+*.bam.bai
+
 # System files
 .DS_Store
 **/.DS_Store
