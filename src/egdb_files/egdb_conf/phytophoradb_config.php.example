@@ -1,0 +1,68 @@
+<?php
+// PhytophoraDB Production Configuration TEMPLATE
+// Replace placeholder values with your actual deployment settings.
+
+$site_config = [
+    'site_name' => 'PhytophoraDB',
+    'site_subtitle' => 'Phytophthora infestans Genome & Annotation Portal',
+    'institution' => 'Your Research Institution',
+    'contact_email' => 'contact@phytophoradb.org',
+    'version' => '1.0',
+    'description' => 'Comprehensive genomics resource for Phytophthora infestans research and late blight disease studies',
+    'logo' => 'phytophthora_logo.png',
+    'primary_color' => '#2E5D3E',
+    'secondary_color' => '#8B4513',
+    'accent_color' => '#CD853F'
+];
+
+// Database configuration for production (replace with your actual credentials)
+$production_db = [
+    'host' => 'phytophoradb_db',
+    'database' => 'phytophoradb_production',
+    'username' => 'YOUR_DB_USER', // <-- replace
+    'password' => 'YOUR_DB_PASSWORD', // <-- replace or use getenv('PHYTOPHORADB_DB_PASS')
+    'port' => 5432
+];
+
+// Species configuration
+$species_list = [
+    'Phytophthora_infestans' => [
+        'card_title' => 'Phytophthora infestans',
+        'card_subtitle' => 'Late Blight Pathogen',
+        'image' => 'phytophthora_infestans.png',
+        'public' => true,
+        'link' => 'phytophthora_infestans.php',
+        'genome_size' => '240 Mb',
+        'gene_count' => '18,720',
+        'assembly_version' => 'Pi_v1.0',
+        'description' => 'Causative agent of potato and tomato late blight disease'
+    ]
+];
+
+// Expression datasets configuration (example)
+$expression_datasets = [
+    'Phytophthora_infection_timecourse.txt' => [
+        'title' => 'Late Blight Infection Time Course',
+        'description' => 'Gene expression during potato leaf infection by P. infestans',
+        'conditions' => ['0h', '6h', '12h', '24h', '48h', '72h', '96h'],
+        'samples' => 21,
+        'publication' => 'DOI: 10.1234/phytophthora-timecourse'
+    ]
+    // ... add more datasets as needed
+];
+
+// Tools configuration
+$tools_config = [
+    'blast' => true,
+    'expression' => true,
+    'annotations' => true,
+    'sequence_extraction' => true,
+    'gene_enrichment' => true,
+    'jbrowse' => true,
+    'variants' => true,
+    'effector_prediction' => true,
+    'orthology' => true
+];
+
+// ... add other config sections as needed
+?>

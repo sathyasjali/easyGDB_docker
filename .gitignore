@@ -71,3 +71,19 @@ $*
 tmp*
 temp*
 *.tmp
+
+# Sensitive config files
+src/egdb_files/egdb_conf/production_config.php
+src/egdb_files/egdb_conf/phytophoradb_config.php
+src/egdb_files/egdb_conf/database_access.php
+# Private data
+data/
+private/
+src/private_expression_data/
+# SSL keys/certs
+*.pem
+*.key
+# Backup and temp files
+*.backup
+*~
+src/jbrowse
